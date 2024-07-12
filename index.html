@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<link rel="stylesheet" href="./index.css">
+<body>
+    <div class="container">
+        <div class="first">
+            <div class="first2">
+                <img src="./image/Screenshot 2024-07-08 155405.png" alt="">
+            </div>
+            <div class="first1">
+                <img src="./image/Screenshot 2024-07-08 155128.png" alt="">
+            </div>
+            
+        </div>
+        <div class="sec">
+            <div class="sec2">
+                <img src="./image/Screenshot 2024-07-08 155418.png" alt="">
+            </div>
+            <div class="sec1">
+                <img src="./image/Screenshot 2024-07-08 155425.png" alt="">
+            </div>
+        </div>
+        <div class="third">
+            <input type="text " id="first" placeholder="0"> <br>
+            <!-- <input type="text" style="color: blue;"  id="second" placeholder="0"> -->
+        </div>
+        <ul>
+            <li>MC</li>
+            <li>MR</li>
+            <li>M+</li>
+            <li>M-</li>
+            <li>MS</li>
+            <li>M∨</li>
+        </ul>
+      <table>
+        <tr>
+            <td>⁒</td>
+            <td onclick="one()">CE</td>
+            <td onclick="both()">C</td>
+            <td onclick="clear2()">x</td>
+        </tr>
+        <tr>
+            <td>1/x</td>
+            <td>x²</td>
+            <td>🟥</td>
+            <td onclick="divide('/')">/</td>
+
+        </tr>
+        <tr>
+            <td onclick="pick(7)"   style="background-color: white;">7</td>
+            <td onclick="pick(8)"   style="background-color: white;">8</td>
+            <td onclick="pick(9)"   style="background-color: white;">9</td>
+            <td onclick="multiply('*')">*</td>
+
+
+        </tr>
+        <tr>
+            <td onclick="pick(4)"   style="background-color: white;">4</td>
+            <td onclick="pick(5)"   style="background-color: white;">5</td>
+            <td onclick="pick(6)"   style="background-color: white;">6</td>
+            <td onclick="subtract('-')">➖</td>
+            
+
+        </tr>
+        <tr>
+            <td onclick="pick(1)"   style="background-color: white;">1</td>
+            <td  onclick="pick(2)"  style="background-color: white;">2</td>
+            <td onclick="pick(3)" style="background-color: white;">3</td>
+            <td onclick="add('+')">+</td>
+            
+
+        </tr>
+        <tr>
+            <td onclick="" style="background-color: white;">+/-</td>
+            <td style="background-color: white;" onclick="pick('0')">0</td>
+            <td style="background-color: white;">🔯</td>
+            <td style="background-color: red;" onclick="equal('=')" >=</td>
+            
+
+        </tr>
+      </table>
+    </div>
+
+</body>
+</html>
+<script src="./calcu.js"></script>
