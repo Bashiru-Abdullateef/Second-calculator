@@ -42,10 +42,24 @@ function multiply(params) {
 function divide(params) {
     first.value += params
 }
+function raise(param) {
+    first.value += param
+}
 
 function equal() {
-    result = eval(first.value)
-    first.value = result
+    if (first.value == '') {
+        alert("Youself check am nah")
+    }else{
+
+        result = eval(first.value)
+        first.value = result
+    }
+}
+const disappear = ()=>{
+    document.getElementById('everyThing').innerHTML
+    everyThing.style.display  = 'none'
+    console.log(everyThing.innerHTML);
+    
 }
 
 

@@ -7,13 +7,13 @@
     
 </head>
 <link rel="stylesheet" href="./index.css">
-<body>
+<body id="everyThing">
     <div class="container">
         <div class="first">
             <div class="first2">
                 <img src="./image/Screenshot 2024-07-08 155405.png" alt="">
             </div>
-            <div class="first1">
+            <div class="first1"  onclick="disappear()">
                 <img src="./image/Screenshot 2024-07-08 155128.png" alt="">
             </div>
             
@@ -28,7 +28,7 @@
         </div>
         <div class="third">
             <input type="text " id="first" placeholder="0"> <br>
-            <!-- <input type="text" style="color: blue;"  id="second" placeholder="0"> -->
+            <!-- <input type="teqxt" style="color: blue;"  id="second" placeholder="0"> -->
         </div>
         <ul>
             <li>MC</li>
@@ -47,7 +47,7 @@
         </tr>
         <tr>
             <td>1/x</td>
-            <td>x²</td>
+            <td onclick="raise('**')">^</td>
             <td>🟥</td>
             <td onclick="divide('/')">/</td>
 
